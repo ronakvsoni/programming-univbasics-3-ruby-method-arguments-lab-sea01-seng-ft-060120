@@ -15,17 +15,10 @@ end
 
 
 def introduction_with_language_optional(name,language = "Ruby")
-
-
-
-
-
-
-def greeting_programmer(name, language = "computer")
-  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
- 
-greeting_programmer("Steven", "Ruby")
+
+
 
 
 
